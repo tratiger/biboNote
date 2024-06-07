@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Save Webpage Info</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Save Webpage Info</h1>
+  <form id="saveForm">
+    <label for="category">Category:</label>
+    <select id="category" name="category" required></select>
+    <button type="submit">Save</button>
+  </form>
+  <form id="addCategoryForm">
+    <label for="newCategory">New Category:</label>
+    <input type="text" id="newCategory" name="newCategory" required>
+    <button type="submit">Add Category</button>
+  </form>
+  <p id="status"></p>
+  <script src="popup.js"></script>
+</body>
+</html>

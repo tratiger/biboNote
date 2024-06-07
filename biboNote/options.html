@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Saved Webpages</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Saved Webpages</h1>
+  <label for="filterCategory">Filter by Category:</label>
+  <select id="filterCategory">
+    <option value="">All</option>
+  </select>
+  <table id="webpagesTable">
+    <thead>
+      <tr>
+        <th>Select</th>
+        <th>Title</th>
+        <th>URL</th>
+        <th>Category</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <button id="deleteSelected">Delete Selected</button>
+  <h2>Categories</h2>
+  <select id="deleteCategory">
+  </select>
+  <button id="deleteCategoryButton">Delete Category</button>
+  <script src="options.js"></script>
+</body>
+</html>
